@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyNest - Em breve</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0f1115;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Outfit', sans-serif;
+      color: #fff;
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo-img {
+      width: 150px;
+      height: auto;
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    .logo {
+      font-size: 4em;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff;
+      letter-spacing: 2px;
+    }
+
+    .coming-soon {
+      margin-top: 25px;
+      font-size: 1.2em;
+      color: #ccc;
+      opacity: 0.85;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="./logo.png" alt="Logo do StudyNest" class="logo-img">
+    <div class="logo">StudyNest</div>
+    <div class="coming-soon">em breve</div>
+  </div>
+</body>
+</html>
