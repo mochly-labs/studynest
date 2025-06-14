@@ -1,2 +1,4 @@
-# studynest
-Nova versão do Genius Labs: Open Source e API Pública
+# 📚 StudyNest
+
+> !INFO
+> **A nova versão open source do Genius Labs — agora com API pública**
