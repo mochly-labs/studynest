@@ -1,4 +1,4 @@
 # 📚 StudyNest
 
 > [!NOTE]
-> **A nova versão open source do Genius Labs — agora com API pública**
+> **Nova versão open source do Genius Labs com API pública**
